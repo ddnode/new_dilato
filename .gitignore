@@ -1,0 +1,17 @@
+.buildpath
+.project
+.settings
+
+sites/*/settings.php
+sites/*/settings*.php
+sites/*/css
+sites/*/js
+sites/*/files
+sites/*/private
+cache/
+
+
+docs/*
+*.tar.gz
+.project
+*~

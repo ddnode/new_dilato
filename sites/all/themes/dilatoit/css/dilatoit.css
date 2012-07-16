@@ -1,0 +1,106 @@
+/* Style of Dilato IT */
+
+body {
+  background: url("../images/body-bottom.png") bottom repeat-x;
+  padding-bottom: 80px;
+}
+#navigation {
+  overflow: visible;
+  border-bottom: 1px solid #6c6c6c;
+}
+.with-navigation #content, .with-navigation .region-sidebar-first, .with-navigation .region-sidebar-second {
+    margin-top: 2.4em;
+}
+#block-nice_menus-1 {
+  margin: 0;
+  float: right;
+}
+ul.nice-menu li a { 
+  color: #0b6dea; 
+}
+ul.nice-menu,
+ul.nice-menu ul,
+ul.nice-menu li {
+  border: 0;
+  background: none;
+}
+ul.nice-menu ul {
+  background: #f0f0f0;
+}
+ul.nice-menu-down li.menuparent,
+ul.nice-menu-down li.menuparent:hover { 
+  background: url('../images/arrow-down.png') right center no-repeat; 
+}
+ul.nice-menu-down li li.menuparent,
+ul.nice-menu-down li li.menuparent:hover {
+  background: url('../images/arrow-right.png') right center no-repeat; 
+}
+
+
+/* SlideShow Style */
+.view-slideshow .views_slideshow_singleframe_main .views-row {
+  position: relative;
+  width: 960px;
+}
+.view-slideshow .views_slideshow_singleframe_main .views-field-title {
+  position: absolute;
+  left: 600px;
+  top: 50px;
+}
+.view-slideshow .views_slideshow_singleframe_main .views-field-body {
+  position: absolute;
+  left: 600px;
+  top: 80px;
+}
+.views-slideshow-controls-bottom {
+  text-align: center;
+}
+
+/* Front Page Style */
+.page-node-25 h1.title,
+.page-node-9 h1.title,
+.front h1.title {
+  display: none;
+}
+.homepage-content li {
+  float: left;
+  display: inline;
+  width: 220px;
+  padding: 5px;
+}
+.homepage-content .title-st {
+  padding-left: 70px;
+  background: url("../images/st.jpg") left center no-repeat;
+}
+.homepage-content .title-sg {
+  padding-left: 70px;
+  background: url("../images/sg.jpg") left center no-repeat;
+}
+.homepage-content .title-sd {
+  padding-left: 70px;
+  background: url("../images/sd.jpg") left center no-repeat;
+}
+.homepage-content .title-ps {
+  padding-left: 70px;
+  background: url("../images/ps.jpg") left center no-repeat;
+}
+
+/* Solutions Page Style */
+.solutions-content li {
+  float: left;
+  display: inline;
+  width: 270px;
+  padding: 20px;
+}
+.solutions-content .title-ccv {
+  padding-left: 80px;
+  background: url("../images/ccv.jpg") left center no-repeat;
+}
+.solutions-content .title-tae {
+  padding-left: 80px;
+  background: url("../images/tae.jpg") left center no-repeat;
+}
+.solutions-content .title-gt {
+  padding-left: 95px;
+  background: url("../images/gt.jpg") left center no-repeat;
+}
