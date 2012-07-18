@@ -166,12 +166,14 @@
           <div id="mission"><?php print $mission; ?></div>
         <?php endif; ?>
 
-        <?php print $breadcrumb; ?>
-
-        <?php print $highlight; ?>
         <?php if ($title): ?>
           <h1 class="title"><?php print $title; ?></h1>
         <?php endif; ?>
+        
+        <?php print $breadcrumb; ?>
+
+        <?php print $highlight; ?>
+
         <?php print $messages; ?>
         <?php if ($tabs): ?>
           <div class="tabs"><?php print $tabs; ?></div>
