@@ -2,7 +2,11 @@
 
 body {
   background: url("../images/body-bottom.png") bottom repeat-x;
-  padding-bottom: 80px;
+}
+#footer {
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
 }
 
 #main-wrapper {
