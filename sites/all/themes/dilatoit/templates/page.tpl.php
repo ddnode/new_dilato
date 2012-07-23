@@ -158,7 +158,33 @@
 
     </div></div><!-- /.section, /#header -->
 
-    <div id="main-wrapper"><div id="main" class="clearfix<?php if ($primary_links || $navigation) { print ' with-navigation'; } ?>">
+    <?php if ($primary_links || $navigation): ?>
+      <div id="navigation"><div class="section clearfix">
+
+        <?php print theme(array('links__system_main_menu', 'links'), $primary_links,
+          array(
+            'id' => 'main-menu',
+            'class' => 'links clearfix',
+          ),
+          array(
+            'text' => t('Main menu'),
+            'level' => 'h2',
+            'class' => 'element-invisible',
+          ));
+        ?>
+
+        <?php print $navigation; ?>
+
+      </div></div><!-- /.section, /#navigation -->
+    <?php endif; ?>
+    
+    <div class="breadcrumb-wrapper">
+      <?php print $breadcrumb; ?>
+    </div>
+
+    <?php print $highlight; ?>
+   
+     <div id="main-wrapper"><div id="main" class="clearfix<?php if ($primary_links || $navigation) { print ' with-navigation'; } ?>">
 
       <div id="content" class="column"><div class="section">
 
@@ -170,9 +196,6 @@
           <h1 class="title"><?php print $title; ?></h1>
         <?php endif; ?>
         
-        <?php print $breadcrumb; ?>
-
-        <?php print $highlight; ?>
 
         <?php print $messages; ?>
         <?php if ($tabs): ?>
@@ -193,26 +216,6 @@
         <?php endif; ?>
 
       </div></div><!-- /.section, /#content -->
-
-      <?php if ($primary_links || $navigation): ?>
-        <div id="navigation"><div class="section clearfix">
-
-          <?php print theme(array('links__system_main_menu', 'links'), $primary_links,
-            array(
-              'id' => 'main-menu',
-              'class' => 'links clearfix',
-            ),
-            array(
-              'text' => t('Main menu'),
-              'level' => 'h2',
-              'class' => 'element-invisible',
-            ));
-          ?>
-
-          <?php print $navigation; ?>
-
-        </div></div><!-- /.section, /#navigation -->
-      <?php endif; ?>
 
       <?php print $sidebar_first; ?>
 

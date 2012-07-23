@@ -1,18 +1,57 @@
 /* Style of Dilato IT */
 
 body {
-  background: url("../images/body-bottom.png") bottom repeat-x;
+  /*background: url("../images/body-bottom.png") bottom repeat-x;*/
+  color: #414141;
 }
+
+a {
+  text-decoration: none;
+  color: #414141;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#header {
+  position: relative;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+#header #logo {
+  position: absolute;
+  top: 20px;
+}
+
+.region-highlight {
+  background: #f3f3f5;
+  clear: both;
+}
+
+  .region-highlight .view-slideshow {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+  }
+
 #footer {
   height: 80px;
   line-height: 80px;
   text-align: center;
+  background: #f3f3f5;
 }
+  #footer-message {
+    font-size: 11px;
+  }
 
 #main-wrapper {
-  min-height: 600px;
+  min-height: 280px;
   height: auto !important;
-  height: 600px;
+  height: 280px;
 }
 #navigation {
   overflow: visible;
@@ -28,9 +67,35 @@ body {
 #navigation .nice-menu li {
   margin-left: 20px;
 }
+
+  #navigation ul.nice-menu ul {
+    border: 1px solid #ccc;
+    background: #fff;
+  }
+
 .with-navigation #content, .with-navigation .region-sidebar-first, .with-navigation .region-sidebar-second {
   margin-top: 2.4em;
 }
+
+.breadcrumb-wrapper {
+  background: #f3f3f5;
+  clear: both;
+}
+
+.breadcrumb {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  padding: 0.5em;
+}
+
+.no-sidebars #content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  float: none;
+}
+
 #block-nice_menus-1 {
   margin: 0;
   float: right;
@@ -82,6 +147,34 @@ ul.nice-menu-down li li.menuparent:hover {
 .front h1.title {
   display: none;
 }
+
+.front .content h2,
+.content h2 {
+  font-size: 18px;
+}
+
+.content a .more {
+  color: #0b6dea;
+}
+
+  .front-bottom-left .column {
+    float: left;
+    overflow: hidden;
+    width: 240px;
+  }
+
+  .front-bottom-right {
+    width: 440px;
+    float: right;
+    padding: 15px;
+    background: #fefefe;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+
+.homepage-content {
+  overflow: hidden;
+}
 .homepage-content li {
   float: left;
   display: inline;
@@ -89,19 +182,19 @@ ul.nice-menu-down li li.menuparent:hover {
   padding: 5px;
 }
 .homepage-content .title-st {
-  padding-left: 70px;
+  padding: 5px 0px 5px 70px;
   background: url("../images/st.jpg") left center no-repeat;
 }
 .homepage-content .title-sg {
-  padding-left: 70px;
+  padding: 5px 0px 5px 70px;
   background: url("../images/sg.jpg") left center no-repeat;
 }
 .homepage-content .title-sd {
-  padding-left: 70px;
+  padding: 5px 0px 5px 70px;
   background: url("../images/sd.jpg") left center no-repeat;
 }
 .homepage-content .title-ps {
-  padding-left: 70px;
+  padding: 5px 0px 5px 70px;
   background: url("../images/ps.jpg") left center no-repeat;
 }
 
@@ -113,14 +206,14 @@ ul.nice-menu-down li li.menuparent:hover {
   padding: 20px;
 }
 .solutions-content .title-ccv {
-  padding-left: 80px;
+  padding: 5px 0px 5px 80px;
   background: url("../images/ccv.jpg") left center no-repeat;
 }
 .solutions-content .title-tae {
-  padding-left: 80px;
+  padding: 5px 0px 5px 80px;
   background: url("../images/tae.jpg") left center no-repeat;
 }
 .solutions-content .title-gt {
-  padding-left: 95px;
+  padding: 5px 0px 5px 95px;
   background: url("../images/gt.jpg") left center no-repeat;
 }
