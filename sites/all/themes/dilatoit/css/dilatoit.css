@@ -224,3 +224,35 @@ ul.nice-menu-down li li.menuparent:hover {
   padding: 5px 0px 5px 95px;
   background: url("../images/gt.jpg") left center no-repeat;
 }
+
+/* View SlideShow Pager Style */
+.view-slideshow .pager-item {
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+.view-slideshow .pager-item a {
+  background: #fff;
+	-webkit-border-radius: 7px; /* Saf3-4, iOS 1-3.2, Android <e;1.6 */
+  -moz-border-radius: 7px; /* FF1-3.6 */
+  border-radius: 7px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+	width: 14px;
+	height: 14px;
+	text-indent: -9999px;
+	display: block;
+	box-shadow: inset 0px 1px 3px #959595;
+	-webkit-box-shadow: inset 0px 1px 3px #959595;
+	-moz-box-shadow: inset 0px 1px 3px #959595;
+}
+.view-slideshow .pager-item a:hover {
+	background: #267bb1;
+	box-shadow: inset 0px 1px 3px #464646;
+	-webkit-box-shadow: inset 0px 1px 3px #464646;
+	-moz-box-shadow: inset 0px 1px 3px #464646;
+}
+.view-slideshow .activeSlide a {
+	background: #424242;
+	box-shadow: 0px 0px 3px rgba(255,255,255,0.75);
+	-webkit-box-shadow: 0 0 3px rgba(255, 255, 255, 0.75);
+	-moz-box-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+}
