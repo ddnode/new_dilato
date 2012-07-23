@@ -68,11 +68,20 @@ a:hover {
   margin-left: 20px;
 }
 
-  #navigation ul.nice-menu ul {
-    border: 1px solid #ccc;
-    background: #fff;
-  }
-
+#navigation ul.nice-menu ul {
+  border: 1px solid #ccc;
+  background: #fff;
+  width: auto;
+}
+ul.nice-menu ul li {
+  width: 13em;
+}
+ul.nice-menu-down li ul li ul {
+  left: 13.5em;
+}
+ul.nice-menu ul ul li {
+  width: 20em;
+}
 .with-navigation #content, .with-navigation .region-sidebar-first, .with-navigation .region-sidebar-second {
   margin-top: 2.4em;
 }
@@ -135,7 +144,7 @@ ul.nice-menu-down li li.menuparent:hover {
 .view-slideshow .views_slideshow_singleframe_main .views-field-body {
   position: absolute;
   left: 600px;
-  top: 80px;
+  top: 0;
 }
 .views-slideshow-controls-bottom {
   text-align: center;
