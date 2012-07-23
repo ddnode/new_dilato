@@ -207,6 +207,9 @@
 
         <div id="content-area">
           <?php print $content; ?>
+          <div class="front-bottom-right">
+            <?php print views_embed_view('testimonials_slideshow', 'block_1'); ?>
+          </div>
         </div>
 
         <?php print $content_bottom; ?>

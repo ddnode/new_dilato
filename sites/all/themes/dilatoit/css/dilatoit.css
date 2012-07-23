@@ -166,20 +166,21 @@ ul.nice-menu-down li li.menuparent:hover {
   color: #0b6dea;
 }
 
-  .front-bottom-left .column {
-    float: left;
-    overflow: hidden;
-    width: 240px;
-  }
+.front-bottom-left .column {
+  float: left;
+  overflow: hidden;
+  width: 240px;
+}
 
-  .front-bottom-right {
-    width: 440px;
-    float: right;
-    padding: 15px;
-    background: #fefefe;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-  }
+.front-bottom-right {
+  width: 440px;
+  float: right;
+  padding: 15px;
+  background: #fefefe;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-top: -160px;
+}
 
 .homepage-content {
   overflow: hidden;
