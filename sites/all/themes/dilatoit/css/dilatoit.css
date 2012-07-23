@@ -172,14 +172,14 @@ ul.nice-menu-down li li.menuparent:hover {
   width: 240px;
 }
 
-.front-bottom-right {
+.view-testimonials-slideshow {
   width: 440px;
   float: right;
   padding: 15px;
   background: #fefefe;
   border: 1px solid #ddd;
   border-radius: 10px;
-  margin-top: -160px;
+  margin-top: -180px;
 }
 
 .homepage-content {
