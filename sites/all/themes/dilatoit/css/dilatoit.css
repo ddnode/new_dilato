@@ -56,9 +56,6 @@ a:hover {
 #navigation {
   overflow: visible;
   border-bottom: 1px solid #6c6c6c;
-  width: 140%;
-  margin-left: -20%;
-  margin-right: -120%;
 }
 #navigation .section {
   width: 960px;
