@@ -32,11 +32,11 @@ a:hover {
   clear: both;
 }
 
-  .region-highlight .view-slideshow {
-    margin-left: auto;
-    margin-right: auto;
-    width: 960px;
-  }
+.region-highlight .view-slideshow {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
 
 #footer {
   height: 80px;
@@ -87,6 +87,9 @@ ul.nice-menu ul ul li {
   background: #f3f3f5;
   clear: both;
 }
+.breadcrumb-wrapper-nobg {
+  clear: both;
+}
 
 .breadcrumb {
   margin-left: auto;
@@ -132,6 +135,7 @@ ul.nice-menu-down li li.menuparent:hover {
 .view-slideshow .views_slideshow_singleframe_main .views-row {
   position: relative;
   width: 960px;
+  height:300px;
 }
 .view-slideshow .views_slideshow_singleframe_main .views-field-title {
   position: absolute;
@@ -142,6 +146,21 @@ ul.nice-menu-down li li.menuparent:hover {
   position: absolute;
   left: 600px;
   top: 0;
+}
+.view-slideshow .views_slideshow_singleframe_main .views-field-field-slideshow-link-url {
+  position: absolute;
+  left: 800px;
+  bottom: -20px;
+}
+.view-slideshow .views_slideshow_singleframe_main .views-field-field-slideshow-link-url a {
+  background: url("../images/button.png") no-repeat;
+  display: block;
+  width: 140px;
+  height: 50px;
+  color: #267bb1;
+  text-decoration: none;
+  line-height: 50px;
+  text-align: center;
 }
 .views-slideshow-controls-bottom {
   text-align: center;

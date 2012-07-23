@@ -177,11 +177,16 @@
 
       </div></div><!-- /.section, /#navigation -->
     <?php endif; ?>
-    
+    <?php if ($highlight): ?>
     <div class="breadcrumb-wrapper">
       <?php print $breadcrumb; ?>
     </div>
-
+    <?php endif; ?>
+    <?php if (!$highlight): ?>
+    <div class="breadcrumb-wrapper-nobg">
+      <?php print $breadcrumb; ?>
+    </div>
+    <?php endif; ?>
     <?php print $highlight; ?>
    
      <div id="main-wrapper"><div id="main" class="clearfix<?php if ($primary_links || $navigation) { print ' with-navigation'; } ?>">
