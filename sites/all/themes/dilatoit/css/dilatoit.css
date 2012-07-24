@@ -7,7 +7,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #414141;
+  color: #267bb1;
 }
 
 a:hover {
@@ -71,10 +71,10 @@ a:hover {
   width: auto;
 }
 ul.nice-menu ul li {
-  width: 13em;
+  width: 14em;
 }
 ul.nice-menu-down li ul li ul {
-  left: 13.5em;
+  left: 14.5em;
 }
 ul.nice-menu ul ul li {
   width: 20em;
