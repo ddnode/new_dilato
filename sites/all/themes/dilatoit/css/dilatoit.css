@@ -178,10 +178,16 @@ ul.nice-menu-down li li.menuparent:hover {
   color: #0b6dea;
 }
 
-.front-bottom-left .column {
+.front-bottom-left .column-1 {
   float: left;
   overflow: hidden;
-  width: 240px;
+  width: 200px;
+}
+
+.front-bottom-left .column-2 {
+  float: left;
+  overflow: hidden;
+  width: 270px;
 }
 
 .view-testimonials-slideshow {
