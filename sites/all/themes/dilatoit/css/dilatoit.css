@@ -147,12 +147,7 @@ ul.nice-menu-down li li.menuparent:hover {
   left: 600px;
   top: 0;
 }
-.view-slideshow .views_slideshow_singleframe_main .views-field-field-slideshow-link-url {
-  position: absolute;
-  left: 800px;
-  bottom: -20px;
-}
-.view-slideshow .views_slideshow_singleframe_main .views-field-field-slideshow-link-url a {
+.view-slideshow .views_slideshow_singleframe_main .link a {
   background: url("../images/button.png") no-repeat;
   display: block;
   width: 140px;
@@ -161,6 +156,7 @@ ul.nice-menu-down li li.menuparent:hover {
   text-decoration: none;
   line-height: 50px;
   text-align: center;
+  float: right;
 }
 .views-slideshow-controls-bottom {
   text-align: center;
