@@ -178,9 +178,6 @@
       </div></div><!-- /.section, /#navigation -->
     <?php endif; ?>
     <?php if ($highlight): ?>
-    <div class="breadcrumb-wrapper">
-      <?php print $breadcrumb; ?>
-    </div>
     <?php endif; ?>
     <?php if (!$highlight): ?>
     <div class="breadcrumb-wrapper-nobg">
