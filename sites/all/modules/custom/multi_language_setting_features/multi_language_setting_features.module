@@ -1,0 +1,3 @@
+<?php
+
+include_once('multi_language_setting_features.features.inc');
