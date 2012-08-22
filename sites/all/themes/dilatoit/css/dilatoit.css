@@ -328,3 +328,14 @@ ul.nice-menu-down li li.menuparent:hover {
 #partners .description {
   width: 600px;
 }
+/**
+ *Languagw swich
+ */
+.block-locale {
+  float:right;
+}
+.block-locale li {
+  float:left;
+  list-style:none;
+  margin-right:10px;
+}
