@@ -194,8 +194,8 @@ ul.nice-menu-down li li.menuparent:hover {
   background-color:#8DD8F8;
   padding:0px 15px;
 }
-.page .breadcrumb {
-  width:930px;
+.page #content {
+  width:990px;
 }
 .page #content-area {
   padding:0px 15px;
