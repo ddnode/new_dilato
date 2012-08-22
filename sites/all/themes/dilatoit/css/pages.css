@@ -312,3 +312,14 @@ ul.links li {
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
+/**
+ *Languagw swich
+ */
+.block-locale {
+  float:right;
+}
+.block-locale li {
+  float:left;
+  list-style:none;
+  margin-right:10px;
+}
