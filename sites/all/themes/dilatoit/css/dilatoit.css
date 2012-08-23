@@ -316,7 +316,7 @@ ul.nice-menu-down li li.menuparent:hover {
 	box-shadow: inset 0px 1px 3px #959595;
 	-webkit-box-shadow: inset 0px 1px 3px #959595;
 	-moz-box-shadow: inset 0px 1px 3px #959595;
-  *background-color:#959595;
+  background: #959595\9;
 }
 .view-slideshow .pager-item a:hover {
 	background: #267bb1;
