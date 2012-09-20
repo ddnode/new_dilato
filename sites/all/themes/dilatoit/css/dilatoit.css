@@ -115,7 +115,7 @@ ul.nice-menu ul ul li {
   float: none;
 }
 
-#block-nice_menus-1 {
+.region-navigation .block-nice_menus {
   margin: 0;
   float: right;
 }
