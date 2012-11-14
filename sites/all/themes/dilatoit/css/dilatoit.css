@@ -354,3 +354,40 @@ ul.nice-menu-down li li.menuparent:hover {
   list-style:none;
   margin-right:10px;
 }
+
+/*CloudStack CNF*/
+.page-2012-cloudstack-cnf .webform-container-inline label {
+  display: inline-block;
+  width: 80px;
+}
+.page-2012-cloudstack-cnf .webform-container-inline {
+  float: left;
+  width: 50%;
+  line-height: 2em;
+}
+
+#webform-component-question1 {
+  clear: both;
+  padding-top: 20px;
+}
+#webform-component-question2,
+#webform-component-question3,
+#webform-component-question4,
+#webform-component-question5,
+#webform-component-question6,
+#webform-component-question7,
+#webform-component-question8,
+#webform-component-question9 {
+  clear: both;
+}
+#webform-component-question1 .form-item .form-item,
+#webform-component-question2 .form-item .form-item,
+#webform-component-question3 .form-item .form-item,
+#webform-component-question4 .form-item .form-item,
+#webform-component-question5 .form-item .form-item,
+#webform-component-question6 .form-item .form-item,
+#webform-component-question7 .form-item .form-item, 
+#webform-component-question8 .form-item .form-item {
+  float: left;
+  margin-right: 40px;
+}
