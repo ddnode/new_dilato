@@ -391,3 +391,33 @@ ul.nice-menu-down li li.menuparent:hover {
   float: left;
   margin-right: 40px;
 }
+
+/* Blogs */
+.view-blogs .views-row .views-field-created {
+  float: right;
+  color: #666;
+}
+.view-blogs .views-row {
+  line-height: 2em;
+  border-bottom: 1px dotted #cecece;
+}
+.view-blog-type {
+  line-height: 2em;
+  font-size: 90%;
+  padding-left: 40px;
+}
+.view-blog-type h4 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+.page-blogs .follow-us {
+  margin-right: 60px;
+}
+.node-type-blog .submitted {
+  color: #bbb;
+  font-size: 90%;
+}
+.section-taxonomy .build-mode-teaser {
+  margin-bottom: 20px;
+  border-bottom: 1px dashed #cecece;
+}

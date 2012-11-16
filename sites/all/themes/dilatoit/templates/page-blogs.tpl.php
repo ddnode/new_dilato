@@ -207,8 +207,12 @@
 
         <?php print $content_top; ?>
 
-        <div id="content-area">
+        <div id="content-area" style="width: 700px; float: left;">
           <?php print $content; ?>
+        </div>
+        
+        <div class="right-sider" style="width: 210px; float: left; border-left: solid 1px #999;">
+          <?php print views_embed_view('blog_type', 'block_2'); ?>
         </div>
 
         <?php print $content_bottom; ?>
