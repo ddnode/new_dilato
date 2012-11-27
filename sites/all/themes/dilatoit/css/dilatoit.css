@@ -235,7 +235,7 @@ ul.nice-menu-down li li.menuparent:hover {
   background: #fefefe;
   border: 1px solid #ddd;
   border-radius: 10px;
-  margin-top: -150px;
+  margin-top: -170px;
 }
 
 .homepage-content {
@@ -356,11 +356,18 @@ ul.nice-menu-down li li.menuparent:hover {
 }
 
 /*CloudStack CNF*/
-.page-2012-cloudstack-cnf .webform-container-inline label {
+.page-2012-cloudstack-cnf .node p {
+  text-indent: 2em;
+ }
+ .page-2012-cloudstack-cnf #content {
+  width: 960px !important;
+}
+
+.page-2012-cloudstack-cnf-survey .webform-container-inline label {
   display: inline-block;
   width: 80px;
 }
-.page-2012-cloudstack-cnf .webform-container-inline {
+.page-2012-cloudstack-cnf-survey .webform-container-inline {
   float: left;
   width: 50%;
   line-height: 2em;
@@ -405,6 +412,7 @@ ul.nice-menu-down li li.menuparent:hover {
   line-height: 2em;
   font-size: 90%;
   padding-left: 40px;
+  text-transform: capitalize;
 }
 .view-blog-type h4 {
   margin-top: 0;
