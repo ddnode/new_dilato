@@ -429,3 +429,8 @@ ul.nice-menu-down li li.menuparent:hover {
   margin-bottom: 20px;
   border-bottom: 1px dashed #cecece;
 }
+
+/* locale swicher */
+.block-locale .ja {
+  display: none;
+}
